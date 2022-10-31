@@ -1,0 +1,89 @@
+*{Font-family: Tahoma, Verdana, Segoe, sans-serif;}
+
+html {scroll-behavior: smooth;}
+
+body {
+    background-image: url(../imagens/fundo.jpg);
+}
+
+div {
+    background-color: rgba(44, 44, 44, 0.63);
+    padding: 10px;
+    margin-top: 8px;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+p {
+    color: rgb(4, 4, 5);
+}
+
+.blocos {
+    display: grid;
+    grid-template-columns: 0.6fr 10fr;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.blocos2 {
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    gap: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.center {text-align: center;}
+
+.icon {padding-left: 0px;
+       padding-right: 15px;
+       border-radius: 50%;
+       height: 120px;
+       width: 120px;
+       background-size: cover;}
+
+.infoplanet {border-radius: 35px;
+    background-color: rgba(21, 22, 26, 0.53);
+    text-align: center;}
+
+.link {background-color: rgba(23, 58, 122, 0.692);
+       color: rgb(117, 156, 179);}
+
+.transp {background-color: rgb(0, 0, 0, 0);
+        text-align: center;}
+
+.titulo {color: rgb(255, 255, 255);}
+
+.fonte {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0);}
+
+.borda {border: rgb(30, 29, 34) solid 8px;
+        border-radius: 12px;}
+
+.bordaanalise {border: rgb(30, 29, 34) solid 8px;
+            border-right: rgba(0, 0, 0, 0) solid 8px;
+            border-left: rgba(0, 0, 0, 0) solid 8px;}
+
+.bordabaixa {border: rgb(30, 29, 34) solid 8px;
+    border-bottom: rgba(0, 0, 0, 0) solid 8px;
+    border-radius: 12px;}
+
+.botao {border-radius: 10px;
+        background-color: #000020;
+        border-color: rgba(4, 0, 53, 0.836);
+        text-decoration: none;
+        height: 100%;
+        width: 100%;}
+
+.letrabotao {color: white;
+            text-decoration: none;
+            font-size: 20px;}
+
+.center {text-align: center;}
+
+
+.iconapp {
+    color: rgb(139, 137, 146);
+    font-size: 55px;}
